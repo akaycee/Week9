@@ -12,6 +12,7 @@ Command used: %27%20OR%20SLEEP(5)=0--%27
 XSS
 This attack uses the Feedback tab and the comment field to inject javascript code.
 The field is not cleaned before accepting resulting in the javascript code being allowed and being executed along with the existing HTML
+<script>alert('Test');</script>
 
 User Enumeration
 Here the error seen when the username is present in the database and when the user is not present is different.
